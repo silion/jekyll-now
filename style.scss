@@ -21,6 +21,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  padding-bottom:126px;
 }
 
 .container {
@@ -272,11 +273,14 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  position:fixed;
+  bottom:0;
+  width:100%;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
+// margin-top: 50px;
 
 footer {
   padding: 20px 0;
