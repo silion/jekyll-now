@@ -9,10 +9,10 @@ title: 안녕하세요?
 
 ["jekyll 가이드"](https://jekyllrb.com/docs/posts/)
 
-"kramdown 가이드"](https://kramdown.gettalong.org/syntax.html)
+["kramdown 가이드"](https://kramdown.gettalong.org/syntax.html)
 
 
-##이게 h2인가##
+<h2>이게 h2인가</h2>
 
 <ul>
   {% for post in site.posts %}
@@ -26,6 +26,16 @@ title: 안녕하세요?
 오 전체 포스트 목록이 나오네!!!
 
 짱이다...
+
+{% highlight javascript %}
+
+	let a = 100;
+	const tempFunc = () => {
+		alert(a);
+	}
+
+
+{% endhighlight %}
 
 이건 테이블?
 
